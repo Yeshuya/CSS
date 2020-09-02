@@ -39,7 +39,7 @@
 			</div>
 		</div>
 		<div id="footer">
-		     <h1 style="text-align: center"> Github: <a href="https://github.com/Yeshuya/CSS"> https://github.com/Yeshuya/CSS </a></h1>
+		     <h3 style="text-align: center"> Github: <a href="https://github.com/Yeshuya/CSS"> https://github.com/Yeshuya/CSS </a></h1>
 		</div>
 	</body>
 
