@@ -13,9 +13,9 @@
 					<a href="">Home</a>
 				</div>
 				<div id="nav_bar2">
-					<a href="">Events</a></li>
-					<a href="">About Us</a></li>
-					<a href="">Download</a></li>
+					<a href="">Events</a>
+					<a href="">About Us</a>
+					<a href="">Download</a>
 				</div>
 				<div id="logo_main">
 				<img src="images/logo.png" width="300px" height="101px" style="margin-top: 48px; margin-left: -100px;">
