@@ -146,7 +146,7 @@ body{
 }
 
 #char_categories{
-    margin-top: -38px;
+    margin-top: -146px;
     width: 100%;
     height: 620px;
     background-color: black;
@@ -156,7 +156,7 @@ body{
     color: white;
     text-align: center;
     position: relative;
-    top: 25px;
+    top: 22px;
     font-size: 50px;
     font-family: 'Rock Salt';
 }
@@ -171,7 +171,7 @@ body{
 
 #footer{
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	margin: 0 auto;
 	margin-top: 0px;
 	background-color:rgb(95, 51, 18);
@@ -182,6 +182,40 @@ body{
 .nav-menu ul{
 	list-style-type: none;
 	margin: 0;
+}
+
+@-webkit-keyframes bounce{
+    0%{-webkit-transform: translate(0, 5px);}
+    50%{-webkit-transform: translate(0, 10px);}
+    100%{-webkit-transform: translate(0, 5px);}
+}
+
+@keyframes bounce{
+    0%{transform: translate(0, 5px);}
+    50%{transform: translate(0, 10px);}
+    100%{transform: translate(0, 5px);}
+}
+
+#download{
+	width: 200px;
+	height: 100px;
+	background-color: grey;
+	border: 4px solid black; 
+	border-radius: 25px;
+	position: relative;
+	top: -200px;
+	left: 656px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+    animation: bounce 1s ease-in-out infinite;
+}
+
+#download h1{
+	text-align: center;
+	font-family: Quicksand;
+	margin-top: 10px;
+	margin-left: -4px;
 }
 
 @-webkit-keyframes swinging{
